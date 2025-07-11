@@ -1,0 +1,54 @@
+{
+    "app-name": "Test",
+    "visitors": 1290,
+    "configuration":{
+        "Role": "Admin",
+        "Theme": "Dark",
+        "SideNav": false
+    },
+    "posts": [
+      { "id": "1", "title": "a title", "views": 100 },
+      { "id": "2", "title": "another title", "views": 200 }
+    ],
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    },
+    "restaurant": [
+        {
+            "name": "McDonalds",
+            "location": "123 Main St",
+            "menu": [
+                { "id": "1", "name": "Big Mac", "price": 3.99 },
+                { "id": "2", "name": "French Fries", "price": 1.99 }
+            ]
+        },
+        {
+            "name": "Burger King",
+            "location": "456 Elm St",
+            "menu": [
+                { "id": "1", "name": "Whopper", "price": 4.99 },
+                { "id": "2", "name": "Onion Rings", "price": 2.99 }
+            ]
+        },
+        {
+            "name": "Wendy's",
+            "location": "789 Maple St",
+            "menu": [
+                { "id": "1", "name": "Dave's Single", "price": 4.99 },
+                { "id": "2", "name": "Chili", "price": 3.99 }
+            ]
+        },
+        {
+            "name": "Taco Bell",
+            "location": "1010 Oak St",
+            "menu": [
+                { "id": "1", "name": "Crunchwrap Supreme", "price": 3.99 },
+                { "id": "2", "name": "Nachos BellGrande", "price": 4.99 }
+            ]
+        }   
+    ]
+  }
